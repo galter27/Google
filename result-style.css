@@ -12,6 +12,7 @@ body {
 }
 
 .search-container {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +84,7 @@ body {
     width: 800px;
 }
 
-  .search-results {
+.search-results {
     padding: 0px 20px 0px 200px; 
     font-size: 14px;
     margin-top: 20px; /* Add this line */
@@ -124,9 +125,9 @@ body {
 
 .search-results p {
     font-size: 14px;
-    margin: 0px; 
-    line-height: 1.58;
+    line-height: 0.5em;
     color: #4d5156;
+
 }
 
 .search-results a, .search-results a:hover, .search-results a:active, .search-results a:visited {
