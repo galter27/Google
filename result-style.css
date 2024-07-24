@@ -12,12 +12,11 @@ body {
 }
 
 .search-container {
-    position: fixed;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 800px;
-    position: relative;
 }
 
 .search-bar {
@@ -54,7 +53,6 @@ body {
     border: none;
     border-top: 1px solid #dfe1e5;
     color: #dfe1e5;
-    overflow: visible;
     text-align: center;
     width: 1000%;
     position: relative;
