@@ -62,7 +62,7 @@ body {
 
 .nav-bar ul {
     list-style-type: none;
-    margin: 10px 0 0 200px;  /* adjusted margin here */
+    margin: 10px 0 0 200px; 
     padding: 0;
     overflow: hidden;
 }
@@ -87,24 +87,24 @@ body {
 .search-results {
     padding: 0px 20px 0px 200px; 
     font-size: 14px;
-    margin-top: 20px; /* Add this line */
+    margin-top: 20px; 
 }
 
 .user-circle {
     position: fixed;
-    top: 20px; /* Adjust top position */
-    right: 20px; /* Adjust left position */
+    top: 20px; 
+    right: 20px; 
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    background-color: #e53935; /* Red color */
+    background-color: #e53935; 
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white; /* Text color */
-    font-size: 20px; /* Font size of the initial */
+    color: white; 
+    font-size: 20px; 
     font-family: sans-serif;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
 }
 
 .search-results h2 {
