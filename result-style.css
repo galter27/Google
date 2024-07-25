@@ -83,6 +83,7 @@ body {
 }
 
 .search-results {
+    position: relative;
     padding: 0px 20px 0px 200px; 
     font-size: 14px;
     margin-top: 20px; 
@@ -139,4 +140,16 @@ body {
 
 .search-results h2 a:hover {
     text-decoration: underline;
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+}
+
+.logo-image {
+    width: 300px; 
+    height: auto;
+    border-radius: 3%;
 }
