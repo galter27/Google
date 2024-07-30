@@ -1,3 +1,7 @@
+/*
+Gavriel Matatov 322404088 
+Gal Ternovski 323005512 
+*/
 body {
     display: flex;
     flex-direction: column;
@@ -8,7 +12,7 @@ body {
     background-color: #ffffff;
 }
 
-.user-circle {
+.gmail-user {
     position: fixed;
     top: 20px; 
     right: 20px; 
@@ -25,7 +29,7 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
 }
 
-.container {
+.main-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,23 +37,23 @@ body {
     margin-top: -50px;
 }
 
-.content {
+.content-div {
     text-align: center;
 }
 
-.logo {
+.google-logo {
     width: 272px;
     height: 92px;
     margin-top: 50px; /* Adjust top margin */
 }
 
-.search-container {
+.search-div {
     position: relative;
     margin: 20px 0;
 }
 
 .search-bar {
-    width: 540px;
+    width: 600px;
     height: 45px;
     padding: 0 20px;
     font-size: 16px;
